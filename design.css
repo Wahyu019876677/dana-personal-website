@@ -16,8 +16,8 @@ i{
 	text-align: center;
 	padding-right: 20px;
 	border: 1px solid red;
-	margin-left: 50%;
-	
+	margin-left: 50%;	
+	display: inline-block;
 }
 
 #Dana_photo{
@@ -35,6 +35,7 @@ footer{
 a{
 	margin: 10px;
 	color: black;
+	text-decoration: none;
 }
 
 a:hover{
@@ -57,10 +58,10 @@ a:hover{
 
 #edu{
 	text-align: center;
-	float: left;
 	border: 1px solid blue;
 	padding-left: 20px;
 	margin-right: 100px;
+	display: inline-block;
 }
 
 h1{
@@ -74,5 +75,9 @@ h1{
 }
 
 #home{
+	display: inline-block;
+}
 
+.label{
+	
 }
