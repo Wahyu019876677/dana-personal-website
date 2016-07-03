@@ -11,15 +11,6 @@ i{
 	margin: 10px;
 }
 
-#honors{
-	
-	text-align: center;
-	padding-right: 20px;
-	border: 1px solid red;
-	margin-left: 50%;	
-	display: inline-block;
-}
-
 #Dana_photo{
 	transform: scale(.2,.2);
 	/*float: right;*/
@@ -30,6 +21,7 @@ footer{
 	position: initial;
 	padding: 20px;
 	border: 1px solid;
+	
 }
 
 a{
@@ -44,7 +36,6 @@ a:hover{
 
 #classes{
 	text-align: center;
-	float: none;
 	padding: 20px;
 	border: 1px solid;
 }
@@ -59,9 +50,23 @@ a:hover{
 #edu{
 	text-align: center;
 	border: 1px solid blue;
-	padding-left: 20px;
-	margin-right: 100px;
+	padding-left: 10%;
+	margin-right: 0;
 	display: inline-block;
+	padding-right: 10%;
+	
+}
+
+#honors{
+	
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+	border: 1px solid red;
+	margin-left: 0;	
+	display: inline-block;
+
+	
 }
 
 h1{
@@ -75,10 +80,14 @@ h1{
 }
 
 #home{
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 .label{
-	
+	font-size: 20px;
+}
+
+.b{
+	display: inline-block;
 }
 
