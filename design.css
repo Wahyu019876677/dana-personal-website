@@ -19,7 +19,7 @@ footer{
 	position: initial;
 	padding: 20px;
 	border: 1px solid;
-	background-color: #9966ff;	
+	background-color: #cccccc;	
 }
 
 a{
@@ -29,13 +29,13 @@ a{
 }
 
 a:hover{
-	color: #ffffcc;
+	color: #9966ff;
 }
 
 #classes{
 	text-align: center;
 	padding: 20px;
-	border: 1px solid;
+	border: 2px solid;
 	background-color: #9966ff;
 }
 
@@ -43,36 +43,35 @@ a:hover{
 	text-align: center;
 	float: none;
 	padding: 20px;
-	border: 1px solid;
-	background-color: #cccccc;
+	border: 2px solid;
+	background-color: #9966ff;
 }
 
 #edu{
 	text-align: center;
 	border: 1px solid blue;
-	padding-left: 10%;
-	padding-right: 10%;
 	display: inline-block;
-	width: 350px;
-	margin-left: -15px;
-	margin-top: -15px;
-	margin-bottom: -30px;
-	padding-bottom: 18px;
-	padding-top: 40px;
+	width: 50%;
+	margin-left: -10px;
+	margin-right: -5px;
+	background-color: #cccccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*padding-left: 10%;
+	padding-right: 10%;*/
+	
+	/*margin-top: -15px;*/
+	/*margin-bottom: -30px;*/
 }
 
 #honors{
-	
 	text-align: center;
-	border: 1px solid red;
-	padding-left: 165px;
-	padding-right: 165px;
-	display: inline-block;	
-	margin-left: 0;	
-	width: 350px;
-	margin-right: -30px;
-	padding-top: 12px;
-
+	display: inline-block;
+	width: 50%;
+	margin-right: -15px;
+	padding-top: 10px;
+	border-left: 2px solid;
+	background-color: #cccccc;
 }
 
 
@@ -104,4 +103,11 @@ h1{
 	
 	border: 1px solid;
 	height: 100px;
+}
+
+#work{
+	padding-left: 10px;
+	background-color: #cccccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
