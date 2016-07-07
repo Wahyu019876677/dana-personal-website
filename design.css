@@ -9,8 +9,8 @@ i{
 	margin: 10px;
 }
 
-#Dana_photo{
-	transform: scale(.2,.2);
+img{
+	transform: scale(.1,.1);
 	/*float: right;*/
 }
 
@@ -49,19 +49,14 @@ a:hover{
 
 #edu{
 	text-align: center;
-	border: 1px solid blue;
 	display: inline-block;
 	width: 50%;
 	margin-left: -10px;
 	margin-right: -5px;
 	background-color: #cccccc;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	/*padding-left: 10%;
-	padding-right: 10%;*/
+	padding-top: 53px;
+	padding-bottom: 11px;
 	
-	/*margin-top: -15px;*/
-	/*margin-bottom: -30px;*/
 }
 
 #honors{
@@ -72,6 +67,7 @@ a:hover{
 	padding-top: 10px;
 	border-left: 2px solid;
 	background-color: #cccccc;
+	padding-bottom: 11px;
 }
 
 
