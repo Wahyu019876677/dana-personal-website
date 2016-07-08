@@ -2,6 +2,7 @@ body{
 	background-color: char;
 	font-size: 20px;
 	margin: -.5px;
+
 }
 
 i{
@@ -9,9 +10,15 @@ i{
 	margin: 10px;
 }
 
-img{
+/*img{
 	transform: scale(.1,.1);
-	/*float: right;*/
+	float: right;
+	margin: 0 auto;
+	position: absolute;
+}*/
+.me{
+	transform: scale(.1,.1);
+
 }
 
 footer{
@@ -53,17 +60,16 @@ a:hover{
 	width: 50%;
 	margin-left: -10px;
 	margin-right: -5px;
-	background-color: #cccccc;
 	padding-top: 53px;
-	padding-bottom: 11px;
-	
+	background-color: #cccccc;
+	padding-bottom: 11px;	
 }
 
 #honors{
 	text-align: center;
 	display: inline-block;
-	width: 50%;
-	margin-right: -15px;
+	width: 52%;
+	margin-right: -30px;
 	padding-top: 10px;
 	border-left: 2px solid;
 	background-color: #cccccc;
@@ -98,7 +104,8 @@ h1{
 #head{
 	
 	border: 1px solid;
-	height: 100px;
+	height: 300px;
+	background-color: #9966ff;
 }
 
 #work{
