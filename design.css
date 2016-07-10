@@ -9,23 +9,23 @@ i{
 	margin: 10px;
 }
 
-/*img{
+img{
 	transform: scale(.1,.1);
-	float: right;
+	
 	margin: 0 auto;
 	position: absolute;
-}*/
+}
 
-.me{
+/*.me{
 	transform: scale(.1,.1);
 
-}
+}*/
 
 footer{
 	text-align: center;
 	position: inherit;
-	padding: 20px;
-	border: 1px solid;
+	padding: .7em;
+	/*border: .1em solid;*/
 	background-color: #cccccc;	
 }
 
@@ -42,7 +42,7 @@ a:hover{
 #classes{
 	text-align: center;
 	padding: 20px;
-	border: 2px solid;
+	border: .1em solid;
 	background-color: #9966ff;
 }
 
@@ -50,7 +50,7 @@ a:hover{
 	text-align: center;
 	float: none;
 	padding: 20px;
-	border: 2px solid;
+	border: .1em solid;
 	background-color: #9966ff;
 }
 
@@ -71,39 +71,30 @@ a:hover{
 	width: 52%;
 	margin-right: -30px;
 	padding-top: 10px;
-	border-left: 2px solid;
+	border-left: .1em solid;
 	background-color: #cccccc;
 	padding-bottom: 11px;
 }
 
-h1{
-	float: left;
-	padding-left: 20px;
+header{
+	text-align: center; 
 }
 
 #school{
-	border: 1px solid;
+	border: .1em solid;
 	padding: 15px;
 	margin-top: 10px;
 	background-color: #cccccc;	
 }
 
-#home{
-	/*display: inline-block;*/
-	float: left;
-	position: inherit;
-	margin-top: 5%;
-	margin-right: 60%;
-	margin-left: 20px;
-}
 
 .label{
 	font-size: 20px;
 }
 
 #head{	
-	border: 1px solid;
-	height: 300px;
+	border: .1em solid;
+	height: 200px;
 	background-color: #9966ff;
 	background-image: 
 }
