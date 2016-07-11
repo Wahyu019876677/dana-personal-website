@@ -11,7 +11,6 @@ i{
 
 img{
 	transform: scale(.1,.1);
-	
 	margin: 0 auto;
 	position: absolute;
 }
@@ -30,13 +29,13 @@ footer{
 }
 
 a{
-	/*margin: 10px;*/
+	margin: 10px;
 	color: #110000;
 	text-decoration: none;
 }
 
 a:hover{
-	color: #9966ff;
+	color: #cccccc;
 }
 
 #classes{
@@ -95,8 +94,7 @@ header{
 #head{	
 	border: .1em solid;
 	height: 200px;
-	background-color: #9966ff;
-	background-image: 
+	background-color: #9966ff; 
 }
 
 #work{
