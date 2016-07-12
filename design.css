@@ -103,3 +103,8 @@ header{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.navbar-brand{
+	text-align: left;
+}
+
