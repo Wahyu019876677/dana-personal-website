@@ -4,13 +4,54 @@
 
 		<title>Resume</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="design.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	
 	</head>
 	<body>
+			<header>
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <div class="navbar-header">
+					    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+				      <a class="navbar-brand" href="#">
+				        Dana C. Ottaviani
+				      </a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    <ul class="nav navbar-nav">
+				        <li class="active">
+				        	<a href="#edu">Education<span class="sr-only">(current)</span></a>
+				        </li>
+				        <li><a href="#classes">Courses</a></li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Phone</a></li>
+				            <li><a href="#">Email</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">LinkedIn</a></li>
+				            <li><a href="#">Github</a></li>
+				            
+				          </ul>
+
+				        </li>
+				    </ul>
+				    </div>
+				  </div>
+				</nav>
+			</header>
+		</div>
+		<main>
 		<div id="head">
-			<header><h1>
+
+			<h1>
 				Dana C. Ottaviani <!--<div class="me"><img src="images/LinkedIn photo.jpg" alt="photo of me"></div>-->
 			</h1><div id="home">6 Clock Shop Drive, Berlin, CT 06037</div><br>
 			
@@ -20,27 +61,23 @@
 				<a href="https://www.linkedin.com/in/dana-ottaviani-672557b5" alt="My LinkedIn Profile" target="_blank"><i class="fa fa-linkedin-square fa-1x" aria-hidden="true"></i><span class="label">LinkedIn</span></a>
 				<a href="https://github.com/Dana94" alt="My GitHub Profile" target="_blank"><i class="fa fa-github fa-1x" aria-hidden="true"></i><span class="label">GitHub</span></a>
 			</div>
-			</header>
-			
-		</div>
-		<!--<div id="school">-->
-		
-			<div id="edu">
-				Education<br>
-				<p>University of Hartford, West Hartford, CT<br>Expected graduation May 2017<br><br>B.S. in Computer Science<br>B.A. in Mathematics<br><br>GPA: 3.81/4.0</p> 
-
-			</div>	
-			<div id="honors">
-				Stephen Snover Award May 2016<br>
-				<p>Dean's List:<br><br>Fall 2012-Spring 2016</p>
-				<p>President's Honors List:<br><br>Fall 2012-Fall 2013<br>Fall 2014-Spring 2015<br>Spring 2016</p>      
 			</div>
-
-		<!--</div>-->
-
+			<div class="container-fluid">
+				<div class="row">
+					<div id="edu" class="col-xs-12 col-sm-6">Education<br>
+						<p>University of Hartford, West Hartford, CT<br>Expected graduation May 2017<br><br>B.S. in Computer Science<br>B.A. in Mathematics<br><br>GPA: 3.81/4.0</p>
+					</div>
+					<div id="honors" class="col-xs-12 col-sm-6">Stephen Snover Award May 2016<br>
+						<p>Dean's List:<br><br>Fall 2012-Spring 2016</p>
+						<p>President's Honors List:<br><br>Fall 2012-Fall 2013<br>Fall 2014-Spring 2015<br>Spring 2016</p>
+					</div>
+				</div>
+			</div>
+		</main>
+	
 		<div id="classes">
 			<p>Courses</p>
-				<p>Bioinformatics<br>Principles of Database Systems<br>Data Structures<br>Architecture and Assembly Language<br>Computer Operating Systems<br>	Introduction to Internet Programming<br>Calculus of Several Variables<br>Discrete Mathematics<br>Linear Algebra and Matrix Theory</p>
+			<p>Bioinformatics<br>Principles of Database Systems<br>Data Structures<br>Architecture and Assembly Language<br>Computer Operating Systems<br>	Introduction to Internet Programming<br>Calculus of Several Variables<br>Discrete Mathematics<br>Linear Algebra and Matrix Theory</p>
        	</div>
 
        	<div id="work">
@@ -60,7 +97,11 @@
        
 		<div id="skills">
 			<p>Skills</p>
-				<p>Working knowledge in Java, Python, SQL, and Ruby<br>Competencies in HTML5 and JavaScript</p>
+			<p>Working knowledge in Java, Python, SQL, and Ruby<br>Competencies in HTML5 and JavaScript</p>
 		</div>
+
+		<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 	</body> 
 </html>
