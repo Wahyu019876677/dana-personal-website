@@ -23,7 +23,7 @@ img{
 footer{
 	text-align: center;
 	position: inherit;
-	padding: .7em;
+	padding: .7rem;
 	/*border: .1em solid;*/
 	background-color: #cccccc;	
 }
@@ -41,7 +41,7 @@ a:hover{
 #classes{
 	text-align: center;
 	padding: 20px;
-	border: .1em solid;
+	border: .1rem solid;
 	background-color: #9966ff;
 }
 
@@ -49,30 +49,26 @@ a:hover{
 	text-align: center;
 	float: none;
 	padding: 20px;
-	border: .1em solid;
+	border: .1rem solid;
 	background-color: #9966ff;
 }
 
 #edu{
 	text-align: center;
-	display: inline-block;
-	width: 50%;
-	margin-left: -10px;
-	margin-right: -5px;
-	padding-top: 53px;
+	border: .1rem solid black;
+	padding: auto;
 	background-color: #cccccc;
-	padding-bottom: 11px;	
+	padding-top: .2rem;
+	padding-bottom: .2rem;
 }
 
 #honors{
 	text-align: center;
-	display: inline-block;
-	width: 52%;
-	margin-right: -30px;
-	padding-top: 10px;
-	border-left: .1em solid;
+	border: .1rem solid black;
+	padding: auto;
 	background-color: #cccccc;
-	padding-bottom: 11px;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
 }
 
 header{
@@ -80,7 +76,7 @@ header{
 }
 
 #school{
-	border: .1em solid;
+	border: .1rem solid;
 	padding: 15px;
 	margin-top: 10px;
 	background-color: #cccccc;	
@@ -92,7 +88,7 @@ header{
 }
 
 #head{	
-	border: .1em solid;
+	border: .1rem solid;
 	height: 200px;
 	background-color: #9966ff; 
 }
@@ -107,4 +103,3 @@ header{
 .navbar-brand{
 	text-align: left;
 }
-
