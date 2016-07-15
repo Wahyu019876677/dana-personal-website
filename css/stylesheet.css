@@ -1,6 +1,7 @@
 body{
 	margin: -.5px;	
 	position: relative;
+	padding-top: 50px;
 }
 
 i{
@@ -70,6 +71,7 @@ a:hover{
 	background-color: #cccccc;
 	float: left;
 	height: 100%;
+
 }
 
 #honors{
