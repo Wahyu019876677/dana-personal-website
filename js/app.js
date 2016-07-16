@@ -1,3 +1,5 @@
+/*Referenced at https://css-tricks.com/snippets/jquery/smooth-scrolling/ and David Moran*/
+
 $('body').scrollspy({ target: '#navbar-example' });
 
 $('[data-spy="scroll"]').each(function () {
@@ -12,7 +14,7 @@ $(document).ready(function(){
       $target = $target.length && $target
       || $('[name=' + this.hash.slice(1) +']');
       if ($target.length) {
-        var targetOffset = $target.offset().top - 150;
+        var targetOffset = $target.offset().top - 70;/*150*/
         $('html,body')
         .animate({scrollTop: targetOffset}, 1000);
        return false;
@@ -20,3 +22,4 @@ $(document).ready(function(){
     }
   });
 });
+

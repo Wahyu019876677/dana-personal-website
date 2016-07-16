@@ -78,6 +78,10 @@ a:hover{
 	height: 20%;
 }
 
+.dropdown-menu{
+	color: black;
+}
+
 /* 04. Education */
 
 #edu{
