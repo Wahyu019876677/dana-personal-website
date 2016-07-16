@@ -1,5 +1,18 @@
+/* Project Name: Dana's Personal Website
+ * Table of Contents
+ * 01. Default
+ * 02. Bootstrap
+ * 03. Header
+ * 04. Education
+ * 05. Honors
+ * 06. Courses
+ * 07. Employment
+ * 08. Skills
+
+/* 01. Default */
+
 body{
-	margin: -.5px;	
+	margin: -.5px;
 	position: relative;
 	padding-top: 50px;
 }
@@ -15,10 +28,9 @@ img{
 	position: absolute;
 }
 
-/*.me{
-	transform: scale(.1,.1);
-
-}*/
+header{
+	text-align: center; 
+}
 
 footer{
 	text-align: center;
@@ -38,6 +50,57 @@ a:hover{
 	color: #cccccc;
 }
 
+/* 02. Bootstrap */
+
+.label{
+	font-size: 20px;
+}
+
+.row p{
+	font-size: 20px;
+}
+
+/*.me{
+	transform: scale(.1,.1);
+
+}*/
+
+/* 03. Header */
+
+.navbar-brand{
+	text-align: left;
+}
+
+#nav{
+	font-size: 20px;
+	clear: both;
+	width: 100%;
+	height: 20%;
+}
+
+/* 04. Education */
+
+#edu{
+	text-align: center;
+	border: .1rem solid black;
+	background-color: #cccccc;
+	float: left;
+	height: 100%;
+
+}
+
+/* 05. Honors */
+
+#honors{
+	text-align: center;
+	border: .1rem solid black;
+	background-color: #cccccc;
+	float: right;
+	height: 100%;
+}
+
+/* 06. Courses */
+
 #classes{
 	padding: 20px;
 	border: .1rem solid;
@@ -56,53 +119,7 @@ a:hover{
 	font-size: 20px;
 }
 
-#skills{
-	text-align: center;
-	float: none;
-	padding: 20px;
-	border: .1rem solid;
-	background-color: #9966ff;
-	font-size: 20px;
-}
-
-#edu{
-	text-align: center;
-	border: .1rem solid black;
-	background-color: #cccccc;
-	float: left;
-	height: 100%;
-
-}
-
-#honors{
-	text-align: center;
-	border: .1rem solid black;
-	background-color: #cccccc;
-	float: right;
-	height: 100%;
-}
-
-header{
-	text-align: center; 
-}
-
-#school{
-	border: .1rem solid;
-	padding: 15px;
-	margin-top: 10px;
-	background-color: #cccccc;	
-}
-
-
-.label{
-	font-size: 20px;
-}
-
-#head{	
-	border: .1rem solid;
-	height: 200px;
-	background-color: #9966ff; 
-}
+/* 07. Employment */
 
 #work{
 	padding-left: 10px;
@@ -112,17 +129,13 @@ header{
 	font-size: 20px;
 }
 
-.navbar-brand{
-	text-align: left;
-}
+/* 08. Skills */
 
-#nav{
-	font-size: 20px;
-	clear: both;
-	width: 100%;
-	height: 20%;
-}
-
-.row p{
+#skills{
+	text-align: center;
+	float: none;
+	padding: 20px;
+	border: .1rem solid;
+	background-color: #9966ff;
 	font-size: 20px;
 }
