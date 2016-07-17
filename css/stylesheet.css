@@ -13,7 +13,7 @@
 
 body{
 	margin: -.5px;
-	position: relative;
+	/*position: relative;*/
 	padding-top: 50px;
 }
 
@@ -32,13 +32,13 @@ header{
 	text-align: center; 
 }
 
-footer{
+/*footer{
 	text-align: center;
 	position: inherit;
 	padding: .7rem;
-	/*border: .1em solid;*/
+	/*border: .1em solid;
 	background-color: #cccccc;	
-}
+}*/
 
 a{
 	margin: 10px;
@@ -89,7 +89,7 @@ a:hover{
 	border: .1rem solid black;
 	background-color: #cccccc;
 	float: left;
-	height: 100%;
+	height: 375px;
 
 }
 
@@ -100,7 +100,7 @@ a:hover{
 	border: .1rem solid black;
 	background-color: #cccccc;
 	float: right;
-	height: 100%;
+	height: 375px;
 }
 
 /* 06. Courses */
@@ -115,7 +115,7 @@ a:hover{
 #classes ul{
 	list-style: none;
 	display: inline-block;
-	text-align: center;
+	text-align: left;
 }
 
 #classes div{
