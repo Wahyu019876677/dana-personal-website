@@ -17,19 +17,34 @@ body{
 	padding-top: 70px;
 }
 
-img{
-	transform: rotate(90deg) scale(.1,.1);
-	margin-bottom: -800px;
-	margin-top: -790px;
-	margin-left: -48%;	
+/*Referenced at https://css-tricks.com/css-media-queries/*/
+@media all and (max-width: 850px) and (min-width: 768px) {
+  body{
+    padding-top: 140px;
+  }
 }
+
+img{
+	transform: rotate(90deg) scale(.3,.3);
+	border-radius: 50%;
+	margin-bottom: -300px;
+	margin-top: -290px;
+	
+	
+}
+
+/*@media (max-width: 1329px) and () and () and (){
+	img{
+		
+		margin-top: -50px;
+	}
+}*/
 
 #img-row{
 	background-color: #9966ff;
 	text-align: center;
 	font-size: 20px;
 	padding-bottom: 15px; 
-
 }
 
 header{
@@ -42,17 +57,13 @@ a{
 	text-decoration: none;
 }
 
-a:hover{
-	color: #cccccc;
+q{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
-/*Referenced at https://css-tricks.com/css-media-queries/*/
 
-@media all and (max-width: 850px) and (min-width: 768px) {
-  body{
-    padding-top: 140px;
-  }
-}
+
 
 /* 02. Bootstrap */
 
@@ -77,8 +88,9 @@ a:hover{
 	height: 20%;
 }
 
-.dropdown-menu{
-	color: black;
+.dropdown ul li a{
+	font-size: 20px;
+	color: gray;
 }
 
 /* 04. Education */
