@@ -17,7 +17,6 @@ body{
 	padding-top: 70px;
 }
 
-/*Referenced at https://css-tricks.com/css-media-queries/*/
 @media all and (max-width: 850px) and (min-width: 768px) {
   body{
     padding-top: 140px;
