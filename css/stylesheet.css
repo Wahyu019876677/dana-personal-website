@@ -24,8 +24,7 @@ body{
 }
 
 img{
-	border-radius: 50%;
-	width: 100% \9;		
+	border-radius: 50%;	
 }
 
 /*computers*/
@@ -35,8 +34,8 @@ img{
 	}
 
 	#img-row{
-		margin-top: -200px;
-		margin-bottom: -195px;
+		margin-top: -150px;
+		margin-bottom: -150px;
 	}
 }
 
@@ -45,7 +44,7 @@ img{
 	img{
 		margin-top: -10px;
 		margin-bottom: -20px;
-		transform: rotate(90deg) scale(.3,.3);
+		transform: rotate(90deg) scale(.4,.4);
 	}
 }
 
