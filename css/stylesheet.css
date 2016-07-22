@@ -24,28 +24,39 @@ body{
 }
 
 img{
-	transform: rotate(90deg) scale(.3,.3);
 	border-radius: 50%;
-	width: 100% \9;
-
-	/*margin-bottom: -65px;
-	margin-top: -65px;*/
-	
-	
-	
+	width: 100% \9;		
 }
 
-@media all and (max-height: 746px) and (min-height: 470px){
+/*computers*/
+@media (min-width: 1024px){
 	img{
-		margin-top: -65px; 
-		margin-bottom: -65px;
+		transform: rotate(90deg) scale(.1,.1);
+	}
+
+	#img-row{
+		margin-top: -200px;
+		margin-bottom: -195px;
 	}
 }
 
+/*phones*/
+@media (max-height: 746px) and (min-height: 470px){
+	img{
+		margin-top: -10px;
+		margin-bottom: -20px;
+		transform: rotate(90deg) scale(.3,.3);
+	}
+}
 
-
-
-
+/*tablets*/
+@media (max-height: 1370px) and (min-height: 956px) and (max-width: 900px){
+	img{
+		margin-top: -110px; 
+		margin-bottom: -120px;
+		transform: rotate(90deg) scale(.3,.3);
+	}
+}
 
 .img-container{
 	background-color: #9966ff;
@@ -61,14 +72,6 @@ a{
 	color: #110000;
 	text-decoration: none;
 }
-
-q{
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-
-
 
 /* 02. Bootstrap */
 
